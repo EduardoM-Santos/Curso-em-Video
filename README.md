@@ -1,4 +1,4 @@
-Olá mudno!
+Olá mundo!
 Hello world!
 
 Apenas um local onde deixo registrado meus exercicios do meu curso, tanto faculdade, como outros curso de fora como por exemplo, o Curso Em Vídeo do Youtube.

@@ -1,0 +1,6 @@
+preço = float(input('Digite o preço do produto R$:'))
+#Receberá o valor
+val = preço - (preço * 5 / 100)
+#Fará o cálculo
+print('O preço que era R$:{}, e agora após desconto de 5% agora é :{}'.format(preço, val))
+#Irá mostrar o resultado

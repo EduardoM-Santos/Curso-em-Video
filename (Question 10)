@@ -1,0 +1,7 @@
+dinheiro = float(input('Digite aqui quanto você tem em R$:'))
+total = dinheiro/4.97
+iens = dinheiro/0.033
+euro = dinheiro/5.36
+print('O valor total convertido é: {:.2f}'.format(total))
+print('Iene convertido: {:.2f}'.format(iens))
+print('O euro convertido: {:.2f}'.format(euro))

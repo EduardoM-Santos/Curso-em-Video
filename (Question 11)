@@ -1,0 +1,6 @@
+largura = float(input('Informe a largura: '))
+altura = float(input('Informe a altura: '))
+area = largura * altura
+print('A area somada de {} x {} resulta no total de: {}'.format(largura, altura, area))
+tinta = area/2
+print('Dado que a área foi de {}, então será necessário: {}L. de tinta'.format(area, tinta))

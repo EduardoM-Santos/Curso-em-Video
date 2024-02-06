@@ -1,0 +1,3 @@
+ini = float(input('Digite aqui seu salário atual para calcular seus 15% aumento:'))
+stotal = ini + (ini * 15 / 100)
+print('Parabéns, de R$:{:.2f}, você foi para R$:{:.2f}'.format(ini, stotal))

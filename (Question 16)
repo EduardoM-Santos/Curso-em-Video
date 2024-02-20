@@ -1,0 +1,10 @@
+''' Duas Formas de quebrar número!'''
+'''Usando import'''
+from math import trunc
+num = float(input('Digite um valor'))
+print('O resultado de: {} é: {}'.format(num, trunc(num)))
+
+'''Usando recursos do Python'''
+
+totl = float(input('Digite um valor'))
+print('O valor formatado é: {}'.format(int(totl)))

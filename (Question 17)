@@ -1,0 +1,14 @@
+'''catetos e hipotenusa sem import '''
+co = float(input('Digite cateto oposto: '))
+ad = float(input('Digite o cateto adjacente: '))
+hipotenusa = (co ** 2 + ad ** 2) **(1/2)
+print('A hipotenusa de {} e {} é {:.2f}'.format(co, ad, hipotenusa))
+
+
+
+import math
+
+co = float(input('Digite cateto oposto: '))
+ad = float(input('Digite o cateto adjacente: '))
+hipotenusa = math.hypot(co, ad)
+print('A hipotenusa {:.2f}'.format(hipotenusa))
